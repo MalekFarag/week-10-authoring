@@ -9,4 +9,4 @@ const connect = sql.createConnection({
     database: config.db
 })
 
-module.exports = sql;
+module.exports = connect;
